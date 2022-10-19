@@ -1,0 +1,23 @@
+{
+  "name": "cors-proxy-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitsuoka0423/cors-proxy-lambda.git"
+  },
+  "keywords": [],
+  "author": "Takahiro Mitsuoka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitsuoka0423/cors-proxy-lambda/issues"
+  },
+  "homepage": "https://github.com/mitsuoka0423/cors-proxy-lambda#readme",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}

@@ -1,4 +1,4 @@
-const { default: axios } = require("axios");
+const axios = require("axios");
 
 exports.handler = async (event) => {
   console.log(event);
@@ -16,6 +16,6 @@ exports.handler = async (event) => {
 
   return {
     statusCode: 200,
-    body: response,
+    body: response.data,
   };
 };
